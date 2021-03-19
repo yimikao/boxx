@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+nav {
+    padding: 1em;
+    text-align: center;
+}
+
+ul {
+    justify-content: flex-end;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    list-style: none;
+}
+li {
+    padding: 1em;
+}
+a {
+    text-decoration: none;
+}
+
+
+main {
+    margin: auto;
+}
+
+#intro {
+    text-align: center;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: auto;
+    /* margin-top: 5%; */
+    margin-bottom: 4%;
+}
+
+#intro h1, p, form {
+    padding: 1em;
+}
+
+#logo {
+    font-size: 3em;
+    color: blueviolet;
+}
+
+#form-input {
+    padding: 1em;
+    width: 100px;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+#form-input:focus {
+    width: 400px;
+  outline: none;
+
+  }
+
+
+#form-button {
+background-color: blueviolet;
+  border: none;
+  color: white;
+  padding: 0.79em;
+  border-radius: 5px;
+  /* display: inline-block; */
+  font-size: 16px;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+    opacity: 0.3;
+}
+
+.more {
+    margin-top: 5%;
+}
+
+.more-heading {
+    text-align: center;
+    font-size: 1em;
+}
+
+#how-to-container {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-to {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.how-to h5 {
+    font-size: 1em;
+    color:  blueviolet;
+    background-color: rgba(137, 43, 226, 0.11);
+    padding: 0;
+    border-radius: 50px;
+}
+
+.more h5, div {
+    padding: 1em;
+}
