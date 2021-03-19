@@ -43,6 +43,7 @@ main {
 }
 
 #logo {
+    font-family: 'Space Grotesk';
     font-size: 3em;
     color: blueviolet;
 }
