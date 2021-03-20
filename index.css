@@ -114,3 +114,30 @@ hr {
 .more h5, div {
     padding: 1em;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    
+ul {
+    justify-content: center;
+    width: 100%;
+}
+
+#form-input {
+    padding: 1em;
+    width: 100%;
+    margin-bottom: 0.7em;
+    border-radius: 4px;
+}
+#form-input:focus {
+    width: 100%;
+  }
+
+#how-to-container {
+    width: 100%;
+    flex-direction: column;
+}
+
+
+}
